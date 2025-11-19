@@ -2,7 +2,7 @@ module github.com/mehdibo/httpadaptor
 
 go 1.23.6
 
-require github.com/valyala/fasthttp v1.68.0
+require github.com/valyala/fasthttp v1.59.0
 
 require (
 	github.com/andybalholm/brotli v1.2.0 // indirect
