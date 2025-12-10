@@ -22,7 +22,6 @@ func ConvertRequest(src *http.Request, dst *fasthttp.RequestCtx, forServer bool)
 
 	req := &dst.Request
 	req.Reset()
-	req.Header.DisableNormalizing()
 
 	switch {
 	case forServer && src.RequestURI != "":
